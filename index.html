@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Code Documentation</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>📚 JavaScript Documentation</h1>
+    <input type="text" id="search" placeholder="Search code..." />
+  </header>
+
+  <main id="docs">
+    <section class="doc">
+      <h2>📥 Installation</h2>
+      <pre><code class="language-bash">npm i @hydra_scraper</code></pre>
+    </section>
+   <h2>⚙️ Usage</h2>
+    <section class="doc">
+      <h2>Pinterest</h2>
+      <p>Search Image From Pinterest:</p>
+      <pre><code class="language-js">const pinterest = require('hydra_scraper')
+
+const data = await pinterest('elaina')
+console.log(data)
+</code></pre>
+    </section>
+    <section class="doc">
+      <h2>Tiktok Search</h2>
+      <p>Search Video Tiktok:</p>
+      <pre><code class="language-js">const tiktoks = require('hydra_scraper')
+
+const data = await tiktoks('elaina')
+console.log(data)
+</code></pre>
+    </section>
+    <section class="doc">
+      <h2>Youtube Stalking</h2>
+      <p>Stalking Account Youtube:</p>
+      <pre><code class="language-js">const ytStalk = require('hydra_scraper')
+
+const data = await ytStalk('letdahyper')
+console.log(data)
+</code></pre>
+    </section>
+    <section class="doc">
+      <h2>Github Stalking</h2>
+      <p>Stalking Account Github:</p>
+      <pre><code class="language-js">const githubStalk = require('hydra_scraper')
+
+const data = await githubStalk('skyzoo92')
+console.log(data)
+</code></pre>
+    </section>
+    <section class="doc">
+      <h2>Tiktok Stalking</h2>
+      <p>Stalking Account Tiktok:</p>
+      <pre><code class="language-js">const tiktokStalk = require('hydra_scraper')
+
+const data = await tiktokStalk('genzo_am')
+console.log(data)
+</code></pre>
+    </section>
+    <section class="doc">
+      <h2>Google Image</h2>
+      <p>Search Image From Google:</p>
+      <pre><code class="language-js">const GoogleImage = require('hydra_scraper')
+
+const data = await GoogleImage('elaina')
+console.log(data)
+</code></pre>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+

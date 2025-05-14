@@ -1,0 +1,42 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #121212;
+  color: #f0f0f0;
+}
+
+header {
+  background: #1e1e1e;
+  padding: 1em;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0 0 0.5em;
+}
+
+#search {
+  padding: 0.5em;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: none;
+}
+
+main {
+  padding: 2em;
+}
+
+.doc {
+  margin-bottom: 2em;
+}
+
+pre {
+  background: #2d2d2d;
+  padding: 1em;
+  border-radius: 10px;
+  overflow-x: auto;
+}
